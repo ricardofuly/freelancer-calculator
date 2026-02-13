@@ -1,0 +1,62 @@
+{
+  "currency": "BRL",
+  "defaultExtraPercentage": 20,
+  "safeRange": {
+    "minMultiplier": 0.9,
+    "maxMultiplier": 1.1
+  },
+  "services": [
+    {
+      "id": "programming",
+      "name": "Programação",
+      "baseRate": 80
+    },
+    {
+      "id": "game_design",
+      "name": "Game Design",
+      "baseRate": 70
+    },
+    {
+      "id": "level_design",
+      "name": "Level Design",
+      "baseRate": 65
+    },
+    {
+      "id": "vfx",
+      "name": "VFX",
+      "baseRate": 90
+    },
+    {
+      "id": "ui_ux",
+      "name": "UI/UX",
+      "baseRate": 75
+    },
+    {
+      "id": "animation",
+      "name": "Animação",
+      "baseRate": 85
+    },
+    {
+      "id": "audio",
+      "name": "Áudio",
+      "baseRate": 60
+    }
+  ],
+  "levels": [
+    {
+      "id": "junior",
+      "name": "Júnior",
+      "multiplier": 1.0
+    },
+    {
+      "id": "mid",
+      "name": "Pleno",
+      "multiplier": 1.4
+    },
+    {
+      "id": "senior",
+      "name": "Sênior",
+      "multiplier": 1.8
+    }
+  ]
+}

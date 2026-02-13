@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Freelancer Game Dev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>💰 Game Dev Freelancer</h1>
+
+  <label>Tipo de Serviço</label>
+  <select id="service"></select>
+
+  <label>Nível Profissional</label>
+  <select id="level"></select>
+
+  <label>Horas Estimadas</label>
+  <input type="number" id="hours" value="40" min="1">
+
+  <label>Custos Extras (%)</label>
+  <input type="number" id="extra">
+
+  <label>Nome do Cliente</label>
+  <input type="text" id="clientName" placeholder="Ex: Studio XYZ">
+
+  <button id="calculateBtn">Calcular</button>
+
+  <button id="budgetBtn" style="margin-top:10px; background:#16a34a;" disabled>
+    Gerar Orçamento
+  </button>
+  <button id="pdfBtn" style="margin-top:10px; background:#7c3aed;"disabled>
+    Exportar PDF
+  </button>
+
+  <div class="result" id="result" style="display:none;"></div>
+
+  <div id="budget" style="display:none; margin-top:30px;"></div>
+
+  <h3 style="margin-top:30px;">Histórico</h3>
+  <div id="history"></div>
+
+  
+
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
